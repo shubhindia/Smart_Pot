@@ -125,5 +125,5 @@ if (liter > 0.75)
           Serial.println("Waiting...");
   
   // thingspeak needs minimum 15 sec delay between updates, i've set it to 30 seconds
-  delay(10000);
+  delay(30000);
 }
